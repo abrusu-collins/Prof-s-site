@@ -1,0 +1,84 @@
+
+
+*{
+	margin:0;
+	padding: 0;
+
+	font-family: 'Roboto', sans-serif;
+}
+html{
+	 background-image:linear-gradient(rgba(240, 243, 245,.9),rgba(240, 243, 245,.9)), url('soap.png'); 
+
+background-position:center;
+background-size: cover;
+
+
+}
+body{
+	color:#00136f;
+}
+img{
+	width:60%;
+}
+
+.top{
+	margin-top: 10px;
+	font-size: 50px;
+}
+.all{
+	font-size: 20px;
+	width:60%;
+	margin:15px auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.all p{
+	background-color: #fcfeff;
+	margin:10px;
+	padding:15px;
+	border-radius: 10px;
+}
+.buy,.directions{
+	font-size: 20px;
+	width:60%;
+	margin:15px auto;
+	text-align: center;
+}
+a{
+	color:#fcfeff;
+	background-color: #00136f;
+	text-decoration: none;
+	padding: 10px 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin: 10px auto;
+	display: block;
+	width:10%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+/*media queries*/
+@media(max-width:767px){
+img{width:80%;}
+
+
+
+}
+
+@media(max-width:578px){
+img{width:85%;}
+
+
+
+}
+
+@media(max-width:442px){
+img{width:95%;}
+
+
+
+}
